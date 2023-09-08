@@ -8,7 +8,7 @@ If you're new and you're looking for a place to start, then go here: [The Basics
 
 ## Sections
 
-### On the Quad
+### [On the Quad](On-The-Quad/)
 * [Motors](On-the-Quad/motors.md)
 * [Props](On-the-Quad/props.md)
 * [Flight Controllers](On-the-Quad/flight-controllers.md)
@@ -18,16 +18,16 @@ If you're new and you're looking for a place to start, then go here: [The Basics
 * [Video Transmitters](On-the-Quad/video-transmitters.md)
 * [Radio Receivers](On-the-Quad/radio-receivers.md)
 
-### On the Ground
+### [On the Ground](On-the-Ground/)
 * [Video Receivers / Headsets](On-the-Ground/video-receivers.md)
 * [Radio Controllers](On-the-Ground/radio-controllers.md)
 
-### Assembly
+### [Assembly](Assembly/)
 * [Soldering](Assembly/soldering.md)
 
-### Programming
+### [Programming](Programming/)
 * [Betaflight](Programming/betaflight.md)
 * [BLHeli](Programming/blheli.md)
 
-### Other
+### [Other](Other/)
 * [DJI Gear (Weirdness)](Other/dji-gear.md)

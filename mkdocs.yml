@@ -1,4 +1,5 @@
 site_name: FPV Garden
+site_url: https://fpv.gdn
 theme:
   name: material
   features:
