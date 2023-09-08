@@ -1,0 +1,91 @@
+site_name: FPV Garden
+theme:
+  name: material
+  features:
+    - content.code.annotation
+    - content.code.copy
+    - content.tabs.link
+    - navigation.indexes
+    - navigation.instant
+    - navigation.path
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.sugges
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: blue grey
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: black
+      accent: cyan
+
+plugins:
+  - search:
+      lang: en
+  - social
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/amckenna/fpv.gdn
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/fpvolant/
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/amckenna"  target="_blank" rel="noopener">Andrew McKenna</a>
+
+nav:
+  - About: 'index.md'
+  - the-basics.md
+  - On the Quad:
+    - On-the-Quad/index.md
+    - On-the-Quad/batteries.md
+    - On-the-Quad/escs.md
+    - On-the-Quad/flight-controllers.md
+    - On-the-Quad/frames.md
+    - On-the-Quad/motors.md
+    - On-the-Quad/props.md
+    - On-the-Quad/radio-receivers.md
+    - On-the-Quad/video-transmitters.md
+  - On the Ground:
+    - On-the-Ground/index.md
+    - On-the-Ground/radio-controllers.md
+    - On-the-Ground/video-receivers.md
+  - Assembly:
+    - Assembly/index.md
+    - Assembly/soldering.md
+  - Programming:
+    - Programming/index.md
+    - Programming/betaflight.md
+    - Programming/blheli.md
+  - Other:
+    - Other/index.md
+    - Other/dji-gear.md
+
+
