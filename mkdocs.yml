@@ -42,18 +42,20 @@ extra:
       link: https://www.instagram.com/fpvolant/
 
 markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - admonition
   - pymdownx.arithmatex:
       generic: true
-  - footnotes
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.mark
-  - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg

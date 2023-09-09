@@ -2,9 +2,7 @@
 
 This is a documentation and reference site for all things FPV quadrocopters and drones. I built this site as a personal reference as I learn more about the hobby, but I'm putting it online in case it is useful to others too. If you'd like to add additional content, suggest changes/edits, or reach out to me about something on the site, you can either file an issue via the Github link to the project in the bottom right corner, or ping me on Instagram via the link in the bottom right, as well.
 
-## Start Here
-
-If you're new and you're looking for a place to start, then go here: [The Basics](the-basics.md)
+## [Start Here with The Basics](the-basics.md)
 
 ## Sections
 
