@@ -51,9 +51,13 @@ The firmware that runs an ESC is different from the firmware that runs the Fligh
 
 ### Propellers
 
+The propellers are a device consisting of a hub with rotating plastic blades that translate the motor's power to thrust. The three main variables for props are the size, the pitch, and the number of blades. The propeller size is the diameter of the circle made by the blades - so the length of each blade is actually a little less than half of the prop size. The pitch is a little unintuitive, but essentially the higher (more aggressive) the pitch, the more air is displaced with each sweep of the blade. The number of blades is just how many blades are mounted on the hub, with the most common being between 2 and 5 blades.
 
+The main thing to keep in mind is the larger the blades, the higher the pitch, and the more blades, the more thrust is generated, but there is a trade-off for each. Larger blades weigh more and are therefore harder to spin up and require more torque to do so, but have more rotational inertia and are more efficient. Higher pitch means more air displaced for each sweep and ultimately is a factor in determining top speed, but again, a higher pitch requires more torque from the motor. Increasing blade count will increase the total surface area of the propeller within the circle, without needing to increase the circle size through an increase in blade length. So why aren't all drones using as many props as possible? because it's more efficient to make the blades longer vs adding more blades.
 
-## The Controller
+To keep things simple - most pilots use 3 bladed props because they are a good balance of performance, thrust, torque requirements, etc. For smaller drones you'll see 2 bladed props because the motors are smaller and have less available torque. If you're flying cinematography drones and need a lot of thrust for a heavy payload, but aren't as worried about efficiency or top speed, then 4 or 5 blades are a good option.
+
+## The Flight Controller
 
 ### Gyro
 
