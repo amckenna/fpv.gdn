@@ -90,5 +90,7 @@ To keep things simple - most pilots use 3 bladed props because they are a good b
 ## References
 
 [Lithium Polymer Batteries](https://en.wikipedia.org/wiki/Lithium_polymer_battery)
+
 [Electronic Speed Control](https://en.wikipedia.org/wiki/Electronic_speed_control)
+
 [BLHeli](https://github.com/bitdump/BLHeli)
